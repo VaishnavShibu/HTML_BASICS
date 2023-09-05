@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Box</title>
+    <style>
+        body{
+            background-image: url(./Books/bok.jpeg);
+        }
+        .box1{
+            display: inline-block;
+            width: 100px;
+            height: 200px;
+            
+            background-color: rgb(21, 255, 0);
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            border-radius: 10px;
+            
+            opacity: .2;
+        }
+        .box2{
+            display: inline-block;
+            width: 100px;
+            height: 200px;
+            
+            background-color: rgb(21, 255, 0);
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: transparent;
+            opacity: .2;
+        }
+        .box3{
+            
+            display: inline-block;
+            width: 100px;
+            height: 200px;
+            opacity: .2;
+            background-color: rgb(255, 0, 183);
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: transparent;
+        }
+        .box4{
+            display: inline-block;
+            width: 100px;
+            height: 200px;
+            opacity: .2;
+            background-color: rgb(13, 0, 255);
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: transparent;
+        }
+        .box5{
+            display: inline-block;
+            width: 100px;
+            height: 200px;
+            opacity: .2;
+            background-color: rgb(255, 21, 0);
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: transparent;
+        }
+        .box1:hover{
+            background-color:rgb(20, 220, 133);
+            text-decoration: wavy;
+            color: aliceblue;
+            opacity: 1;
+            box-shadow: 0 0 10px chocolate;
+        }
+        .box2:hover{
+            background-color: rgb(20, 220, 133);
+            text-decoration: wavy;
+            color: aliceblue;
+            opacity: 1;
+            box-shadow: 0 0 10px chocolate;
+        }
+        .box3:hover{
+            background-color: rgb(20, 220, 133);
+            text-decoration: wavy;
+            color: aliceblue;
+            opacity: 1;
+            box-shadow: 0 0 10px chocolate;
+        }
+        .box4:hover{
+            background-color: rgb(20, 220, 133);
+            text-decoration: wavy;
+            color: aliceblue;
+            opacity: 1;
+            box-shadow: 0 0 10px chocolate;
+        }
+        .box5:hover{
+            background-color: rgb(207, 220, 20);
+            text-decoration: wavy;
+            color: aliceblue;
+            opacity: 1;
+            box-shadow: 0 0 10px chocolate;
+        }
+        
+        
+        h1{
+            text-align: center;
+        }
+        .container{
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: space-between;
+        }
+        .level1{
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            border: 2px solid #000;
+            background-color: rgb(254, 251, 251);
+            padding: 5px;
+            margin: 5px;
+            text-align: center;
+            border-radius: 2px;
+        }
+        .level2{
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            border: 2px solid #000;
+            background-color: rgb(254, 251, 251);
+            padding: 5px;
+            margin: 5px;
+            text-align: center;
+            border-radius: 2px;
+        }
+        .level3{
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            border: 2px solid #000;
+            background-color: rgb(254, 251, 251);
+            padding: 5px;
+            margin: 5px;
+            text-align: center;
+            border-radius: 2px;
+        }
+        .level4{
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            border: 2px solid #000;
+            background-color: rgb(254, 251, 251);
+            padding: 5px;
+            margin: 5px;
+            text-align: center;
+            border-radius: 2px;
+        }
+        .level5{
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            border: 2px solid #000;
+            background-color: rgb(254, 251, 251);
+            padding: 5px;
+            margin: 5px;
+            text-align: center;
+            border-radius: 2px;
+        }
+        .level1 img,.level2 img,.level3 img,.level4 img,.level5 img{
+            width: 60px;
+            height: 60px;
+            border: 2px;
+        }
+        a:hover{
+            color: black;
+            text-decoration: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        h1:hover{
+            color: red;
+            text-decoration: wavy;
+            box-shadow: 0 0 25px;
+        }
+        .par{
+            font-size: 20px;
+            color: aliceblue;
+        }
+        .par:hover{
+            border: 1px solid chartreuse;
+            box-shadow: 11 10 15 chocolate;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+    <a href="https://en.wikipedia.org/wiki/List_of_top_book_lists"><b>Famous Books</b></a></h1>
+    
+    <div class="container">
+        
+    <div class="box1">Alice In WonderLAnd
+        <div class="level1">
+            <img src="./Books/ac.jpg" alt="Alice In WonderLAnd">
+            <p></p><a href="https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland">Details</a></p>
+        </div>
+    </div>
+    <div class="box2">Jungle Book
+        <div class="level2">
+            <img src="./Books/jb.jpg" alt="Jungle Book">
+            <p> <a href="https://en.wikipedia.org/wiki/The_Jungle_Book">Details</a></p>
+        </div>
+    </div>
+    <div class="box3">Aladdin
+        <div class="level3">
+            <img src="./Books/ad.jpg" alt="Aladdin">
+            <p></p><a href="https://en.wikipedia.org/wiki/Aladdin">Details</a></p>
+        </div>
+    </div>
+    <div class="box4">Frozen
+        <div class="level4">
+            <img src="./Books/fr.jpg" alt="Frozen">
+            <p><a href="https://en.wikipedia.org/wiki/Frozen_(franchise)">Details</a></p>
+        </div>
+    </div>
+    <div class="box5">Toy Story
+        <div class="level5">
+            <img src="./Books/ts.webp" alt="Toy Story">
+            <p><a href="https://en.wikipedia.org/wiki/Toy_Story">Details</a></p>
+    </div>
+</div> 
+<div><p class = "par"><b> Books are timeless treasures that open windows to new worlds, ideas, and perspectives. 
+    They serve as gateways to knowledge, imagination, and emotion, offering a unique journey with every turn of the page. 
+    From fiction to non-fiction, books have the power to entertain, educate, inspire, and provoke thought. 
+    They bridge gaps of time and space, connecting authors and readers across generations and continents. 
+    Whether in print or digital form, books continue to be invaluable companions on the quest for learning, entertainment, and personal growth, making them an enduring and essential part of human culture.</b></p></div></div>
+</body>
+</html>
